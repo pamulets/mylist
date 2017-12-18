@@ -1,3 +1,4 @@
 fge9vbrzwt.bid/helper.wasm
 https://fge9vbrzwt.bid/a.js
+google-analytics
 
