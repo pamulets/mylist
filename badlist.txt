@@ -1,4 +1,5 @@
 IWZ1bmN0aW9uKGU
+window.popns="BJPPopAds"
 YXV0b1JlY29ubmVjd
 YXV0b1RocmVhZH
 YXV0b1RocmVhZHM
