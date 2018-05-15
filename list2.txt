@@ -1,2 +1,8 @@
 adexchangecloud.com
 popcash.net
+google-analytics.com
+ssl-ccstatic.highwebmedia.com
+s10.histats.com
+go.oclasrv.com
+go.onclasrv.com
+googletagmanager.com
