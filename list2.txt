@@ -6,4 +6,4 @@ s10.histats.com
 go.oclasrv.com
 go.onclasrv.com
 googletagmanager.com
-jwpcdn.com
+ssl.p.jwpcdn.com
