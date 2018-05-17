@@ -12,3 +12,4 @@ tech.yandex.ru
 yastatic.net
 ads.exosrv.com
 jsc.adskeeper.co.uk
+tracker.stats.in.th
