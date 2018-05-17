@@ -7,3 +7,6 @@ go.oclasrv.com
 go.onclasrv.com
 googletagmanager.com
 jf71qh5v14.com
+informer.yandex.ru
+tech.yandex.ru
+yastatic.net
