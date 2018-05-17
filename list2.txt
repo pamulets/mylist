@@ -11,3 +11,4 @@ informer.yandex.ru
 tech.yandex.ru
 yastatic.net
 ads.exosrv.com
+jsc.adskeeper.co.uk
