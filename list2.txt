@@ -15,3 +15,7 @@ jsc.adskeeper.co.uk
 tracker.stats.in.th
 sp.popcash.net
 popcash.net
+googleads.g.doubleclick.net
+doubleclick.net
+ads.exdynsrv.com
+popads.net
