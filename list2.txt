@@ -23,3 +23,6 @@ serving.dfnb-ads.com
 jsc.mgid.com
 moneymakercdn.com
 uptimecdn.com
+c.adexchangemachine.com
+d31qbv1cthcecs.cloudfront.net
+serving.dfnb-ads.com
