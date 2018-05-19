@@ -19,3 +19,7 @@ googleads.g.doubleclick.net
 doubleclick.net
 ads.exdynsrv.com
 popads.net
+serving.dfnb-ads.com
+jsc.mgid.com
+moneymakercdn.com
+uptimecdn.com
