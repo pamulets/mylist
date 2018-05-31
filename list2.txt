@@ -35,6 +35,15 @@ syndication.exoclick.com
 serving.dfnb-ads.com
 media.go2speed.org
 t1.streamango.com
-
+adsymptotic.com
+criteo.net
+fqtag.com
+genieessp.com
+genieesspv.jp
+histats.com
+innity.com
+lkqd.net
+moatads.com
+nimem.com
 
 
