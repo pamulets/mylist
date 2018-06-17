@@ -1,1 +1,101 @@
-Deddf
+var classname = document.getElementsByTagName('video');
+    var longpress = false;
+var presstimer = null;
+var longtarget = null;
+
+
+var cancel = function(e) {
+    if (presstimer !== null) {
+        clearTimeout(presstimer);
+        presstimer = null;
+    }
+
+    this.classList.remove('longpress');
+};
+
+
+        for(var i=0;i<classname.length;i++){
+          cl(classname[i]);
+         }
+
+      function cl(link){
+
+       link.addEventListener('mousedown', function(e){
+         console.log(e);
+
+    if (e.type === 'click' && e.button !== 0) {
+        return;
+    }
+
+    longpress = false;
+
+    this.classList.add('longpress');
+
+    if (presstimer === null) {
+        presstimer = setTimeout(function() {
+          if(link.getAttribute('src')!=null){
+              window.HtmlOut.getVideoHTML(link.getAttribute('src'),link.outerHTML);
+           }else if(link.currentSrc!=null){
+              window.HtmlOut.getVideoHTML(link.currentSrc,link.outerHTML);
+           }else{
+             window.HtmlOut.getVideoHTML('null',link.outerHTML);
+           }
+            longpress = true;
+        }, 900);
+    }
+
+    return false;
+       });
+link.addEventListener('touchstart', function(e){
+  console.log(e);
+
+    if (e.type === 'click' && e.button !== 0) {
+        return;
+    }
+
+    longpress = false;
+
+    this.classList.add('longpress');
+
+    if (presstimer === null) {
+        presstimer = setTimeout(function() {
+          if(link.getAttribute('src')!=null){
+             window.HtmlOut.getVideoHTML(link.getAttribute('src'),link.outerHTML);
+          }else if(link.currentSrc!=null){
+             window.HtmlOut.getVideoHTML(link.currentSrc,link.outerHTML);
+          }else{
+             window.HtmlOut.getVideoHTML('null',link.outerHTML);
+           }
+            longpress = true;
+        }, 900);
+    }
+
+    return false;
+
+});
+link.addEventListener('click', function(e){
+  if (presstimer !== null) {
+        clearTimeout(presstimer);
+        presstimer = null;
+    }
+
+    this.classList.remove('longpress');
+
+    if (longpress) {
+        return false;
+    }
+});
+link.addEventListener('mouseout', cancel);
+link.addEventListener('touchend', cancel);
+link.addEventListener('touchleave', cancel);
+link.addEventListener('touchcancel', cancel);
+
+  }
+
+
+
+
+     
+
+
+       
