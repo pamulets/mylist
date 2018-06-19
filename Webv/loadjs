@@ -34,11 +34,9 @@ var cancel = function(e) {
     if (presstimer === null) {
         presstimer = setTimeout(function() {
           if(link.getAttribute('src')!=null){
-              window.HtmlOut.getVideoHTML(link.getAttribute('src'),link.outerHTML);
+              window.HtmlOut.getVideoHTML(link.getAttribute('src'));
            }else if(link.currentSrc!=null){
-              window.HtmlOut.getVideoHTML(link.currentSrc,link.outerHTML);
-           }else{
-             window.HtmlOut.getVideoHTML('null',link.outerHTML);
+              window.HtmlOut.getVideoHTML(link.currentSrc);
            }
             longpress = true;
         }, 900);
@@ -60,12 +58,10 @@ link.addEventListener('touchstart', function(e){
     if (presstimer === null) {
         presstimer = setTimeout(function() {
           if(link.getAttribute('src')!=null){
-             window.HtmlOut.getVideoHTML(link.getAttribute('src'),link.outerHTML);
+             window.HtmlOut.getVideoHTML(link.getAttribute('src'));
           }else if(link.currentSrc!=null){
-             window.HtmlOut.getVideoHTML(link.currentSrc,link.outerHTML);
-          }else{
-             window.HtmlOut.getVideoHTML('null',link.outerHTML);
-           }
+             window.HtmlOut.getVideoHTML(link.currentSrc);
+          }
             longpress = true;
         }, 900);
     }
