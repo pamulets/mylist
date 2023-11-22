@@ -67,5 +67,6 @@ cdn.sagame66.com
 deephicy.net
 yonmasqueraina.com
 prd.jwpltx.com
+jwpltx.com
 static.cloudflareinsights.com
 googles.video
