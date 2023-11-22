@@ -68,3 +68,4 @@ deephicy.net
 yonmasqueraina.com
 prd.jwpltx.com
 static.cloudflareinsights.com
+googles.video
