@@ -18,7 +18,7 @@ popcash.net
 googleads.g.doubleclick.net
 doubleclick.net
 ads.exdynsrv.com
-popads.net
+popads.netnessainy.net
 serving.dfnb-ads.com
 jsc.mgid.com
 moneymakercdn.com
@@ -70,3 +70,6 @@ prd.jwpltx.com
 jwpltx.com
 static.cloudflareinsights.com
 googles.video
+ak.deephicy.net
+phaipaun.net
+nessainy.net
